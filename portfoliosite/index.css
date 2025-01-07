@@ -1,0 +1,152 @@
+.images-grid {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  height: 500px; /* Juster højden til layoutet */
+  margin: 0 auto;
+  margin-top: 13px;
+}
+
+/* Generel styling for billeder */
+.image-container {
+  position: absolute;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+/* Venstre billeder */
+.image-left-1 {
+  top: 100px;
+  left: 45px; /* Placerer billedet tæt på venstre */
+  width: 250px; /* Mindre billede */
+}
+
+.image-left-2 {
+  top: 360px; /* Overlapper skævt med det andet billede */
+  left: -120px; /* Rykker billedet mere mod venstre */
+  width: 200px; /* Mindre billede */
+  z-index: 1; /* Sørger for at være bagved det første billede */
+}
+
+/* Center stort billede */
+.image-center {
+  position: relative; /* Sørger for, at teksten kan placeres i forhold til billedet */
+  top: 50px; /* Flyt billedet 50px fra toppen */
+  left: 50%; /* Centrer billedet vandret */
+  transform: translateX(-50%); /* Centrer billedets midte */
+  width: 500px; /* Justerer billedets bredde */
+  z-index: 1; /* Billedet har lavere stakrækkefølge end teksten */
+}
+
+/* Højre billede */
+.image-right {
+  top: 350px; /* Flugter med Paris-billedet */
+  right: 45px;
+  width: 260px; /* Mindre billede */
+  z-index: 1;
+}
+
+.overskrift-index {
+  font-size: 100px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  color: #f24822;
+  margin-top: -64px;
+}
+
+/* Styling for intro-sektionen */
+.intro-section {
+  text-align: center;
+  margin-top: 280px;
+}
+
+/* Overskrift styling */
+.intro-heading {
+  font-size: 38px;
+  color: #f24822;
+  font-family: "Old Standard TT", serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: -20px;
+  padding: 14px;
+}
+
+/* Divider styling */
+.intro-divider {
+  border: 0;
+  border-top: 2px solid #f24822;
+  width: 420px;
+  margin: 10px auto;
+}
+
+/* Tekst styling */
+.intro-text {
+  font-size: 18px;
+  color: #f24822;
+  line-height: 1.5;
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Montserrat";
+}
+
+/* Knappen styling */
+.intro-button {
+  display: inline-block;
+  background-color: #f24822;
+  color: #ece9e2;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 20px;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.intro-button:hover {
+  background-color: #d63e20;
+  transform: scale(1.05);
+}
+
+@media (max-width: 800px) {
+  .images-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .image-container {
+    display: none; /* Skjul alle billeder */
+  }
+
+  .image-center {
+    display: block; /* Paris-billedet */
+    width: 90%;
+    position: relative;
+    padding-right: 40px;
+  }
+
+  .overskrift-index {
+    font-size: 36px;
+    text-align: center;
+    margin: -2px auto;
+  }
+
+  .intro-section {
+    margin-top: 50px;
+  }
+
+  .intro-heading {
+    font-size: 30px;
+  }
+}

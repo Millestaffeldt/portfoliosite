@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tema 4</title>
+    <link rel="stylesheet" href="https://use.typekit.net/zbd6ska.css" />
+    <link rel="stylesheet" href="generel.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="burger.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="layout.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Guerrilla&family=Scope+One&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Protest+Guerrilla&family=Scope+One&display=swap" rel="stylesheet" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <h1>MILLE <span>Staffeldt</span></h1>
+        </a>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">FORSIDE</a></li>
+          <li><a href="projekter.html">PROJEKTER</a></li>
+          <li><a href="om_mig.html">OM MIG</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h1 class="overskrift_projekter">04 Animation</h1>
+      <section>
+        <div class="info-tekst">I tema 04 lærte vi at bruge JavaScript til at udvikle et spil med CSS-animationer. Opgaven var at skabe spillet fra bunden, hvor vi skulle udvikle koncept, designe elementer og kode spillet. Dette gav mig erfaring med både JavaScript og Adobe Illustrator, hvor jeg lærte at designe grafiske elementer. Jeg blev også introduceret til moderne designprincipper og stilarter. Derudover lærte jeg at bruge aktivitets- og statemachine-diagrammer, som hjalp mig med at organisere og forstå, hvordan de forskellige elementer i spillet reagerede på brugerinteraktioner.</div>
+
+        <div class="links-container">
+          <a class="link" href="http://millestaffeldt.dk/kea/04_animation/website/index.html" target="_blank">LØSNING <span> → </span></a>
+          <a class="link" href="https://www.figma.com/proto/Y4UV3li3gegiw0OSVdseUv/04.04.01-Temaopgave?node-id=0-1&t=K5J7hzGJjm6Qvoe0-1" target="_blank">FIGMA <span> → </span></a>
+        </div>
+      </section>
+      <section class="grid1_1-1">
+        <div>
+          <h2>Spillet og spilleregler</h2>
+          <p>Jeg har lavet spillet "Afterski", som giver spilleren mulighed for at fange fadøl, der falder ned fra oven, mens det gælder at undgå istapperne. Hver gang spilleren klikker på en fadøl, får de et point, og en drikke-lyd bliver afspillet, mens fadøllen drejer rundt og forsvinder. Hvis spilleren klikker på en istap, mister de et liv, og en glas-lyd høres, mens istappen ryster og forsvinder. Spillet varer i 30 sekunder, og spilleren skal score mindst 10 point for at vinde. Hvis spilleren mister tre liv ved at klikke på tre istapper, taber de spillet, selvom tiden ikke er gået.</p>
+        </div>
+        <img class="billede04_spilleregler" src="billeder/04_spilleregler.webp" alt="screen af spil" />
+      </section>
+      <section class="grid1_1-1">
+        <div>
+          <h2>Ideudvikling og designproces</h2>
+          <p>Jeg startede med en Peer-to-Peer session for at få idéer og inspiration til spillet. Derefter lavede jeg en paper prototype for at teste konceptet og interaktionen. Dette gav mig mulighed for hurtigt at justere og afklare spillets indhold og tekst. Efter at have defineret konceptet, valgte jeg en stil inspireret af spillet Ski Safari, som afspejler de tre værdiord: festligt, sprudlende og sjovt/legende. Jeg lavede skitser og rentegnede derefter spillet i Adobe Illustrator, herunder titelskærm, slutskærm, spilskærm og UI-elementer, for at skabe et visuelt gennemført design.</p>
+        </div>
+        <div>
+          <img class="prototype_04" src="billeder/04_paperprototype.webp" alt="screen af paper prototype" />
+          <img class="billede04_ideudvikling" src="billeder/04_ide1.webp" alt="screen af skitser" />
+        </div>
+      </section>
+
+      <section class="grid1_1-1">
+        <div>
+          <h2>Diagrammer</h2>
+          <p>Øverst ses et aktivitetsdiagram over mit spil og nederst ses et statemachine-diagram over mit spil</p>
+        </div>
+        <div>
+          <img class="aktivitetsdiagram" src="billeder/diagram1.webp" alt="screen af aktivitetsdiagram" />
+          <img class="statemachine-diagram" src="billeder/diagram2.webp" alt="screen af statemachine-diagram" />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <a class="footer-02" href="tema_to.html">02</a>
+        <a class="footer-03" href="tema_tre.html">03</a>
+        <a class="footer-04" href="tema_fire.html">04</a>
+        <a class="footer-05" href="tema_fem.html">05</a>
+      </div>
+    </footer>
+    <script src="js/menu.js"></script>
+  </body>
+</html>

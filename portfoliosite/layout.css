@@ -1,0 +1,232 @@
+@media (min-width: 800px) {
+  .grid1_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .gridommig_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    justify-content: space-between;
+    padding-top: 3%;
+  }
+
+  .overskrifter_ommig {
+    text-align: center;
+    margin-top: 30%;
+  }
+
+  .grid2_2-2 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+
+  .gridprojekter_1-1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Dynamisk kolonnebredde */
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  .grid1_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  p {
+    max-width: fit-content;
+    font-size: 14px;
+    padding-right: 34px;
+  }
+
+  h1 {
+    font-size: 20vw;
+  }
+
+  .info-tekst {
+    font-size: 15px;
+    margin-left: 9%;
+    margin-right: 3%;
+  }
+
+  .overskrift_projekter {
+    font-size: 47px;
+    text-align: center;
+    padding: 26px;
+  }
+
+  .links-container {
+    margin-left: 5%;
+    height: 8vh;
+    display: flex;
+  }
+
+  .links-container05 {
+    margin-bottom: 20px;
+    height: 8vh;
+    display: flex;
+    padding-right: 4%;
+  }
+
+  .link {
+    font-size: 11px;
+    margin-top: 19px;
+    margin-left: 11%;
+  }
+
+  .links-container02 {
+    margin-left: 25%;
+    height: 8vh;
+  }
+
+  /*-------billeder------*/
+  .billede_02 {
+    width: 95%;
+    margin-left: 0px;
+    padding-left: 5px;
+  }
+
+  .img_moodboard03 {
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 90%;
+  }
+
+  .img_03prototype {
+    width: 99%;
+    padding-right: 27px;
+    padding-left: 0px;
+  }
+
+  .img_lighthousetest {
+    width: 93%;
+    margin-top: 13px;
+    padding-right: 10px;
+  }
+
+  .billede04_spilleregler {
+    width: 95%;
+    margin-left: 0%;
+  }
+
+  .prototype04 {
+    width: 10%;
+    margin-top: 15%;
+  }
+
+  .prototype_04 {
+    width: 90%;
+    margin-top: 4%;
+  }
+
+  .img_wireframe {
+    width: 107%;
+    margin-top: 4%;
+    padding-right: 16%;
+  }
+
+  .billede04_ideudvikling {
+    width: 95%;
+    margin-left: 0%;
+  }
+
+  .aktivitetsdiagram {
+    width: 100%;
+    margin-top: 4%;
+  }
+
+  .statemachine-diagram {
+    width: 100%;
+  }
+
+  .styletile05 {
+    width: 94%;
+    margin-left: 2%;
+    padding-right: 32px;
+  }
+
+  .moodboard05 {
+    width: 94%;
+    margin-left: 2%;
+    padding-right: 33px;
+  }
+
+  .lottifile_billede {
+    width: 99%;
+    margin-top: 6%;
+    margin-left: 0%;
+    padding-right: 37px;
+  }
+
+  .img_05prototype {
+    width: 102%;
+    padding-right: 37px;
+  }
+
+  /*------*/
+
+  .footer-02,
+  .footer-03,
+  .footer-04,
+  .footer-05 {
+    padding: 21px;
+  }
+
+  .grid1_1-1 {
+    margin-left: 4%;
+    padding: 20px;
+    margin-right: 0%;
+  }
+
+  .logo h1 {
+    font-size: 20px;
+  }
+
+  .logo span {
+    font-size: 20px;
+  }
+
+  .overskrift_05 {
+    font-size: 27px;
+    padding: 27px;
+    padding-right: 29px;
+    padding-bottom: 18px;
+  }
+
+  .gridprojekter_1-1 {
+    grid-template-columns: 1fr;
+  }
+
+  .ommig_overskrift {
+    text-align: center;
+  }
+
+  .ommig_millestaffeldt {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  h2 {
+    margin-top: 49px;
+  }
+
+  ul {
+    padding-right: 43px;
+  }
+
+  h3 {
+    padding-top: 10px;
+    padding-bottom: 6px;
+  }
+}

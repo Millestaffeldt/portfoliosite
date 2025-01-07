@@ -1,0 +1,327 @@
+/*------------logo --------*/
+
+.logo h1 {
+  font-size: 39px;
+  font-weight: 500;
+  color: #f24822;
+  font-family: "Old Standard TT", serif;
+  font-weight: 80px;
+}
+
+/*css på Staffeldt*/
+.logo span {
+  font-style: italic;
+  color: #f24822;
+  font-family: "Old Standard TT", serif;
+  text-align: center;
+  font-size: 39px;
+  text-align: left;
+  font-weight: 400;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+/*--------------projekter siden--------------*/
+
+.image-link img {
+  width: 113%;
+  max-width: 536px;
+}
+
+.flex_col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Sørg for, at indholdet er tæt på toppen */
+  gap: 10px;
+}
+
+/* når man sætter musen over billederne på projekt siden bliver de større*/
+.image-link:hover img {
+  scale: 105%;
+}
+
+.flex_col:hover {
+  font-weight: bolder;
+}
+
+.img-tekst {
+  font-size: 20px;
+  font-family: "minion-pro-condensed-display", serif;
+  text-transform: uppercase;
+  color: #f24822;
+  padding-bottom: 17px;
+}
+
+.overskrift_projekter {
+  font-family: "minion-pro-condensed-display", serif;
+  text-transform: uppercase;
+  font-size: 100px;
+  text-align: center;
+  padding: 76px;
+  padding-top: 45px;
+  padding-bottom: 32px;
+}
+
+.overskrift_05 {
+  font-family: "Old Standard TT", serif;
+  text-transform: uppercase;
+  font-size: 48px;
+  text-align: center;
+  padding: 48px;
+  border-top: 1px solid #f24822;
+  padding-bottom: 20px;
+}
+
+/*---------------brødtekst----------------*/
+p {
+  font-family: "Montserrat";
+  font-size: 16px;
+  max-width: 65ch;
+  line-height: 2;
+}
+
+.info-tekst {
+  font-size: 18px;
+  font-family: "Montserrat";
+  line-height: 1.7;
+  margin-left: 17%;
+  margin-right: 17%;
+  margin-bottom: 4%;
+}
+
+/*------------overskrifter-------------*/
+
+h2 {
+  color: #f24822;
+  text-transform: uppercase;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-style: normal;
+  padding-bottom: 9px;
+}
+
+/* link*/
+.link {
+  background-color: #ff432e;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 10%;
+  display: block;
+  padding-left: 14px;
+  padding-right: 11px;
+  height: 6vh;
+  padding-top: 4px;
+}
+
+/*----------------cta knapper (løsning og figma)-----------*/
+.links-container {
+  margin-top: 2%;
+  margin-bottom: 3%;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+
+  margin-right: 100px;
+}
+
+/* style på cta knap (løsning) på tema 2*/
+.links-container02 {
+  display: flex;
+  margin-left: 33%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  height: 8vh;
+}
+
+.links-container05 {
+  display: flex;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  height: 8vh;
+  justify-content: center;
+  padding-right: 15%;
+}
+
+.link span {
+  margin-left: 5px; /* Lidt afstand mellem teksten og pilen */
+  font-size: 25px;
+}
+
+.grid1_1-1 {
+  border-top: 20px 30px solid #f24822;
+  margin-left: 17%;
+  margin-bottom: 2%;
+}
+
+/*--------------footer-------------*/
+
+footer {
+  border-top: 1px solid #f24822;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+.footer-02,
+.footer-03,
+.footer-04,
+.footer-05 {
+  padding: 30px;
+  color: #f24822;
+  text-decoration: none;
+}
+
+/* -------------Billeder--------------*/
+
+.billede_02 {
+  width: 70%;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.img_moodboard03 {
+  margin-top: 10%;
+  margin-left: 5%;
+  width: 45%;
+}
+
+.billede04_spilleregler {
+  width: 72%;
+  margin-top: 9%;
+  margin-left: 4%;
+}
+
+.prototype04 {
+  width: 10%;
+  margin-top: 15%;
+}
+
+.prototype_04 {
+  width: 65%;
+  margin-top: 0%;
+}
+
+.billede04_ideudvikling {
+  width: 62%;
+  margin-left: 7%;
+}
+
+.aktivitetsdiagram {
+  width: 70%;
+  margin-top: 10%;
+}
+
+.statemachine-diagram {
+  width: 70%;
+}
+
+.styletile05 {
+  width: 66%;
+  margin-top: 6%;
+  margin-left: 5%;
+}
+
+.moodboard05 {
+  width: 65%;
+  margin-left: 5%;
+}
+
+.lottifile_billede {
+  width: 70%;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+/* -------------om mig side------------*/
+
+.billede_ommig {
+  margin: 7%;
+  max-width: 100%;
+}
+
+h3 {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #f24822;
+}
+
+/* cv punkter*/
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  font-family: "Montserrat";
+  font-size: 16px;
+  max-width: 65ch;
+  line-height: 1.7;
+}
+
+.grid2_2-2 {
+  margin-left: 62px;
+  margin-top: -40px;
+}
+
+/*overskrift hvor der står om mig*/
+.ommig_overskrift {
+  font-family: "minion-pro-condensed-display", serif;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+/*overskrift hvor der står mille staffeldt*/
+.ommig_millestaffeldt {
+  font-family: "Montserrat";
+  font-size: 35px;
+  border-top: 1px solid #f24822;
+  padding-top: 20px;
+}
+
+.cv {
+  padding-left: 15px;
+}
+
+.hvem_er_jeg {
+  padding-right: 28px;
+  margin-right: 10px;
+}
+
+/*wirefram og prototype billeder på side 05*/
+.img_wireframe {
+  width: 107%;
+  margin-left: 0%;
+  margin-top: 10%;
+  padding-right: 15%;
+}
+
+.img_05prototype {
+  width: 92%;
+  margin-left: 0%;
+}
+
+.img_03prototype {
+  width: 60%;
+  padding: 25px;
+}
+
+/* img lighthousetest på tema 3*/
+.img_lighthousetest {
+  width: 60%;
+  margin-top: 56px;
+  padding-left: 29px;
+}
